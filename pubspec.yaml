@@ -1,7 +1,6 @@
 name: intelligentsia_forms
-description: A Flutter package for customizable Forms (Email, gender, counrty, etc..).
-version: 1.0.0
-author: Ibrahim Alsabr <ibrahim.alsabr.dev@outlook.com>
+description: A customizable Flutter package to build sign-in and sign-up forms.
+version: 1.0.2
 homepage: https://github.com/IbrahimAlsabr/intelligentsia_forms
 repository: https://github.com/IbrahimAlsabr/intelligentsia_forms
 issue_tracker: https://github.com/IbrahimAlsabr/intelligentsia_forms/issues
@@ -22,3 +21,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^4.0.0
 
+flutter:
+  assets:
+    - example/assets/

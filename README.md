@@ -5,7 +5,7 @@ forms. It includes components for various form fields such as Email, Name, Passw
 Gender. Each component supports extensive customization options, including color, font, icon, and layout styling, to
 give users a tailored experience.
 
-![SmartTextFormField](example/assets/all.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/all.png)
 
 ## Key Features
 
@@ -61,11 +61,11 @@ and "About Me." Each field type comes with specialized settings to enhance usabi
 
 ### Standard Style
 
-![SmartTextFormField](example/assets/smart_text_form_field_standart.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/smart_text_form_field_standart.png)
 
-![SmartTextFormField](example/assets/smart_text_form_field_filled.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/smart_text_form_field_filled.png)
 
-![SmartTextFormField](example/assets/smart_text_form_field_error.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/smart_text_form_field_error.png)
 
 ---
 
@@ -106,13 +106,13 @@ The `CountrySelector` widget lets users pick a country, displaying the selected 
 
 ### Standard Style
 
-![SmartTextFormField](example/assets/country_selector_standart.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/country_selector_standart.png)
 
-![SmartTextFormField](example/assets/list.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/list.png)
 
-![SmartTextFormField](example/assets/country_selector_selected.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/country_selector_selected.png)
 
-![SmartTextFormField](example/assets/info.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/info.png)
 ---
 
 ### `DateSelector`
@@ -147,11 +147,11 @@ The `DateSelector` widget provides a date picker for selecting and displaying da
 
 ### Standard Style
 
-![SmartTextFormField](example/assets/date_selector_standart.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/date_selector_standart.png)
 
-![SmartTextFormField](example/assets/date_selector_calend.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/date_selector_calend.png)
 
-![SmartTextFormField](example/assets/date_selector_selected.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/date_selector_selected.png)
 ---
 
 ### `GenderSelector`
@@ -178,7 +178,7 @@ The `GenderSelector` widget lets users select gender from customizable options.
 6. **Interactive Gender Selection**
     - Gender options behave as interactive buttons, with distinct styling for selected options.
 
-![SmartTextFormField](example/assets/gender.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/gender.png)
 ---
 
 ## Installation

@@ -1,3 +1,3 @@
-## 0.0.1
-
-* TODO: Describe initial release.
+## 1.0.1
+- Improved documentation and added images for visual clarity.
+- Minor bug fixes and code optimization.

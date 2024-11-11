@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:intelligentsia_forms/themeColors.dart';
+import 'package:intelligentsia_forms/theme_colors.dart';
 
 class StandardFieldStyle {
   /// Global field settings.

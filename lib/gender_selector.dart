@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intelligentsia_forms/standard_field_style.dart';
-import 'package:intelligentsia_forms/themeColors.dart';
+import 'package:intelligentsia_forms/theme_colors.dart';
 
 class GenderSelector extends StatefulWidget {
   // Controller

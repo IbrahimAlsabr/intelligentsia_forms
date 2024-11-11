@@ -2,7 +2,7 @@ import 'package:another_flushbar/flushbar.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:intelligentsia_forms/standard_field_style.dart';
-import 'package:intelligentsia_forms/themeColors.dart';
+import 'package:intelligentsia_forms/theme_colors.dart';
 
 class CountrySelector extends StatefulWidget {
   final Function(String countryName, String countryCode, String countryFlag) onCountrySelected;

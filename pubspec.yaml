@@ -1,0 +1,24 @@
+name: intelligentsia_forms
+description: A Flutter package for customizable Forms (Email, gender, counrty, etc..).
+version: 1.0.0
+author: Ibrahim Alsabr <ibrahim.alsabr.dev@outlook.com>
+homepage: https://github.com/IbrahimAlsabr/intelligentsia_forms
+repository: https://github.com/IbrahimAlsabr/intelligentsia_forms
+issue_tracker: https://github.com/IbrahimAlsabr/intelligentsia_forms/issues
+license: MIT
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  country_picker: ^2.0.24
+  another_flushbar: ^1.10.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+

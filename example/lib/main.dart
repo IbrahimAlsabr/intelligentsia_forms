@@ -60,6 +60,42 @@ class MyApp extends StatelessWidget {
               GenderSelector(onGenderSelected: (gender) {
                 print("Selected gender : $gender");
               }),
+
+              // ---#---#---#---#---#---#---#---#---#---#---#
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SocialAuthButton(provider: SocialAuthProvider.google, onTap: () {}),
+                    SocialAuthButton(provider: SocialAuthProvider.facebook, onTap: () {}),
+                    SocialAuthButton(provider: SocialAuthProvider.twitter, onTap: () {}),
+                    SocialAuthButton(provider: SocialAuthProvider.pinterest, onTap: () {}),
+                    SocialAuthButton(provider: SocialAuthProvider.apple, onTap: () {}),
+                    SocialAuthButton(provider: SocialAuthProvider.linkedin, onTap: () {}),
+                  ],
+                ),
+              ),
+
+              // ---#---#---#---#---#---#---#---#---#---#---#
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    SocialAuthButton(provider: SocialAuthProvider.google, onTap: () {}, outlinedLogo: true),
+                    SocialAuthButton(provider: SocialAuthProvider.facebook, onTap: () {}, outlinedLogo: true),
+                    SocialAuthButton(provider: SocialAuthProvider.twitter, onTap: () {}, outlinedLogo: true),
+                    SocialAuthButton(provider: SocialAuthProvider.pinterest, onTap: () {}, outlinedLogo: true),
+                    SocialAuthButton(provider: SocialAuthProvider.apple, onTap: () {}, outlinedLogo: true),
+                    SocialAuthButton(
+                      provider: SocialAuthProvider.linkedin,
+                      onTap: () {},
+                      outlinedLogo: true,
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),

@@ -142,7 +142,8 @@ class SmartTextFormFieldState extends State<SmartTextFormField> {
       case FormType.aboutMe:
         fieldName = 'About Me';
         hintText = 'Tell us about yourself';
-        iconData = widget.outlinedIcon ? Icons.person_pin_outlined : Icons.person_pin;
+        iconData =
+            widget.outlinedIcon ? Icons.person_pin_outlined : Icons.person_pin;
         invalidFormErrorMessage = "Invalid input";
         emptyFieldErrorMessage = "Please enter some information about yourself";
         inputType = TextInputType.multiline;
@@ -215,12 +216,15 @@ class SmartTextFormFieldState extends State<SmartTextFormField> {
             maxLines: maxLines,
             minLines: minLines,
             textInputAction: textInputAction,
-            obscureText: widget.formType == FormType.password && !_isPasswordVisible,
+            obscureText:
+                widget.formType == FormType.password && !_isPasswordVisible,
             validator: (value) => inputValidator(value),
 
             // ---*---*---*---*---*---*---*---*---*---*---*---*---*
             decoration: InputDecoration(
-              prefixIcon: Icon(iconData, size: widget.iconSize, color: widget.iconColor ?? widget.primaryColor),
+              prefixIcon: Icon(iconData,
+                  size: widget.iconSize,
+                  color: widget.iconColor ?? widget.primaryColor),
               suffixIcon: passwordSuffixIcon(),
               contentPadding: const EdgeInsets.all(12),
               filled: true,
@@ -237,7 +241,7 @@ class SmartTextFormFieldState extends State<SmartTextFormField> {
               // ---*---*---*---*---*---*---*---*---*---*---*---*---*
               enabledBorder: OutlineInputBorder(
                 borderRadius: widget.borderRadius,
-                borderSide: widget.enabledBorderSide ,
+                borderSide: widget.enabledBorderSide,
               ),
 
               // ---*---*---*---*---*---*---*---*---*---*---*---*---*
@@ -271,7 +275,8 @@ class SmartTextFormFieldState extends State<SmartTextFormField> {
   String? inputValidator(String? value) {
     if (value == null || value.isEmpty) {
       return emptyFieldErrorMessage;
-    } else if (widget.formType == FormType.email && !RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
+    } else if (widget.formType == FormType.email &&
+        !RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
       return invalidFormErrorMessage;
     } else if (widget.formType == FormType.password && value.length < 6) {
       return invalidFormErrorMessage;
@@ -284,8 +289,12 @@ class SmartTextFormFieldState extends State<SmartTextFormField> {
         ? IconButton(
             icon: Icon(
               _isPasswordVisible
-                  ? (widget.outlinedIcon ? Icons.visibility_outlined : Icons.visibility)
-                  : (widget.outlinedIcon ? Icons.visibility_off_outlined : Icons.visibility_off),
+                  ? (widget.outlinedIcon
+                      ? Icons.visibility_outlined
+                      : Icons.visibility)
+                  : (widget.outlinedIcon
+                      ? Icons.visibility_off_outlined
+                      : Icons.visibility_off),
               color: widget.iconColor ?? widget.primaryColor,
             ),
             onPressed: _togglePasswordVisibility, // Toggle visibility

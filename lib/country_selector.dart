@@ -5,7 +5,8 @@ import 'package:intelligentsia_forms/standard_field_style.dart';
 import 'package:intelligentsia_forms/theme_colors.dart';
 
 class CountrySelector extends StatefulWidget {
-  final Function(String countryName, String countryCode, String countryFlag) onCountrySelected;
+  final Function(String countryName, String countryCode, String countryFlag)
+      onCountrySelected;
 
   /// The label displayed above the field.
   final String fieldName;
@@ -75,7 +76,8 @@ class CountrySelector extends StatefulWidget {
 
     // Padding
     this.outsidePadding = StandardFieldStyle.outsidePadding,
-    this.insidePadding = const EdgeInsets.only(right: 0, left: 15, top: 10, bottom: 10),
+    this.insidePadding =
+        const EdgeInsets.only(right: 0, left: 15, top: 10, bottom: 10),
 
     // Border
     this.borderStyle,
@@ -139,7 +141,8 @@ class CountrySelectorState extends State<CountrySelector> {
   Widget _displaySuffixIconButton() {
     return widget.showInfoSuffixIcon
         ? IconButton(
-            icon: Icon(widget.outlinedIcon ? Icons.info_outline : Icons.info, color: ThemeColors.primary),
+            icon: Icon(widget.outlinedIcon ? Icons.info_outline : Icons.info,
+                color: ThemeColors.primary),
             padding: const EdgeInsets.only(top: 0, left: 0, right: 0),
             onPressed: () => _buildFlushBar(),
           )
@@ -203,7 +206,8 @@ class CountrySelectorState extends State<CountrySelector> {
           selectedCountryName = country.name;
           selectedCountryFlag = country.flagEmoji;
         });
-        widget.onCountrySelected(country.name, country.countryCode, country.flagEmoji);
+        widget.onCountrySelected(
+            country.name, country.countryCode, country.flagEmoji);
       },
     );
   }

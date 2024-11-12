@@ -1,6 +1,6 @@
 name: intelligentsia_forms
 description: A customizable Flutter package to build sign-in and sign-up forms.
-version: 1.0.3
+version: 1.0.5
 homepage: https://github.com/IbrahimAlsabr/intelligentsia_forms
 repository: https://github.com/IbrahimAlsabr/intelligentsia_forms
 issue_tracker: https://github.com/IbrahimAlsabr/intelligentsia_forms/issues
@@ -24,3 +24,4 @@ dev_dependencies:
 flutter:
   assets:
     - example/assets/
+    - assets/auth_imgs/

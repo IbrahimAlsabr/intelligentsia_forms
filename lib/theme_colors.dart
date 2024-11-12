@@ -23,4 +23,6 @@ class ThemeColors {
   static const Color grey_600 = Color(0xFF757575);
   static const Color grey_700 = Color(0xFF616161);
   static const Color grey_800 = Color(0xFF424242);
+
+  static final Color shadowColor = primary.withOpacity(0.1);
 }

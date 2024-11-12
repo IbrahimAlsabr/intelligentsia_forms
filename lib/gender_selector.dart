@@ -91,7 +91,9 @@ class GenderSelectorState extends State<GenderSelector> {
           // ---#---#---#---#---#---#---#---#---#---#---#---#---#---#---#---#---#---#---
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: widget.genders.map((String gender) => _customGenderOption(gender)).toList(),
+            children: widget.genders
+                .map((String gender) => _customGenderOption(gender))
+                .toList(),
           ),
           const SizedBox(height: 16)
         ],
@@ -141,8 +143,9 @@ class GenderSelectorState extends State<GenderSelector> {
         onTap: () => handleGenderSelection(gender),
         child: Container(
           padding: widget.insidePadding,
-          margin:
-              gender == widget.genders.first ? const EdgeInsets.only(right: 5) : const EdgeInsets.only(left: 5),
+          margin: gender == widget.genders.first
+              ? const EdgeInsets.only(right: 5)
+              : const EdgeInsets.only(left: 5),
           decoration: _genderBoxDecoration(isSelected),
           child: displayGenderOption(gender, isSelected),
         ),

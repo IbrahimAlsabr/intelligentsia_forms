@@ -179,7 +179,38 @@ The `GenderSelector` widget lets users select gender from customizable options.
     - Gender options behave as interactive buttons, with distinct styling for selected options.
 
 ![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/gender.png)
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/social.png)
 ---
+
+### `SocialAuthButton
+
+The `SocialAuthButto`n widget provides a customizable button for social media authentication. It supports various social
+media providers, including Google, Facebook, Apple, Twitter, Pinterest, and LinkedIn, and allows for either outlined or
+solid logos.`
+
+#### Features
+
+1. **Social Media Provider Support**
+    - Includes icons for Google, Facebook, Apple, Twitter, Pinterest, and LinkedIn.
+    - Automatically selects the appropriate logo based on the chosen provider.
+
+2. **Outlined or Solid Logo**
+    - Choose between an outlined or filled logo style by setting the `outlinedLogo` property.
+
+3. **Customizable Background and Padding**
+    - Set background colors and padding for both outlined and solid logo styles.
+
+4. **Configurable Button Size**
+    - Customize the width and height of the button to fit your design.
+
+5. **Border Radius and Box Shadow**
+    - Customize the button's border radius and add a box shadow for added depth.
+
+6. **On-Tap Callback**
+    - Easily handle user interactions with an `onTap` callback.
+
+### Standard Style
+![SmartTextFormField](https://github.com/IbrahimAlsabr/intelligentsia_forms/raw/main/example/assets/social.png)
 
 ## Installation
 

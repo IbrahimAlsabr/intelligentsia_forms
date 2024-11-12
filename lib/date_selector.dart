@@ -39,7 +39,6 @@ class DateSelector extends StatefulWidget {
   const DateSelector({
     super.key,
     required this.selectedDate,
-
     this.primaryColor = StandardFieldStyle.primaryColor,
     this.fillColor = StandardFieldStyle.fillColor,
 
@@ -130,7 +129,9 @@ class DateSelectorState extends State<DateSelector> {
                     _displayPrefixIcon(),
                     const SizedBox(width: 15),
                     Expanded(
-                      child: _selectedDate != null ? _displaySelectedDate() : _displayHintText(),
+                      child: _selectedDate != null
+                          ? _displaySelectedDate()
+                          : _displayHintText(),
                     ),
                   ],
                 ),
@@ -199,6 +200,7 @@ class DateSelectorState extends State<DateSelector> {
         _selectedDate = pickedDate;
       });
     }
-    widget.selectedDate(_selectedDate!.year, _selectedDate!.month, _selectedDate!.day);
+    widget.selectedDate(
+        _selectedDate!.year, _selectedDate!.month, _selectedDate!.day);
   }
 }
